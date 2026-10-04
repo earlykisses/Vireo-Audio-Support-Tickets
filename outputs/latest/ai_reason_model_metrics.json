@@ -1,0 +1,10 @@
+{
+  "n_labelled": 2340,
+  "n_train": 1755,
+  "n_test": 585,
+  "accuracy": 0.582905982905983,
+  "macro_f1": 0.5918757231272885,
+  "weighted_f1": 0.5323295664438953,
+  "random_state": 42,
+  "test_size": 0.25
+}

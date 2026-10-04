@@ -1,0 +1,3 @@
+source_system,rows,raw_amount_sum,normalized_amount_before_dedup_inr,rows_with_refund,canonical_rows,normalized_amount_after_dedup_inr,canonical_rows_with_refund,legacy_divisor_used
+helpdesk,8364,4817881.0,4817881.0,1690,8364,4817881.0,1690,1.0
+legacy_fd,3874,225306200.0,2253062.0,775,3236,1892051.0,650,100.0

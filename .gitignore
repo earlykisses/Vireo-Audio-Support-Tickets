@@ -1,0 +1,39 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs and temporary build outputs
+*.log
+build/
+dist/
+
+# Raw support data
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Keep documentation and submission form
+!docs/
+!docs/**
+!submission-form.md

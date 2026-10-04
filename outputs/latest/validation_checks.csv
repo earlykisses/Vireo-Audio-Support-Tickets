@@ -1,0 +1,8 @@
+check,status,detail
+Required columns present,PASS,All five required CSVs contain required columns.
+Duplicate ticket IDs disclosed,PASS,638 IDs repeat across exported rows; audit file identifies canonical row.
+Legacy conversion evidence,PASS,Applied divisor 100; duplicate refund pairs and order values support this normalization. Raw values are retained.
+Overall reconciliation,PASS,"Canonical normalized refund total Rs 6,709,932.00; see source-level reconciliation."
+Monthly totals match canonical total,PASS,Sum of month/reason amount table compared with canonical refund total.
+Tier 2 separated in reporting,PASS,Agent detail includes roster tier; app filters tiers and never ranks Tier 2 against Tier 1 by volume.
+Refund timestamp available,LIMITATION,No refund-event timestamp in export; created_at is only a monthly reporting proxy.
